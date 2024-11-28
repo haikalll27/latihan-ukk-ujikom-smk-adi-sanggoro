@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/*===== CSS HEADER =====*/
+.header {
+    width: 100%;
+    height: 100%;
+    background: #0ECE21;
+    margin-bottom: 0px;
+}
+
+.container-header {
+    width: 100%;
+    height: 260px;
+    text-align: center;
+}
+
+.img-header-ukk {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 0px;
+}
+
+.heading-2-cs {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 40px;
+    margin-top: 0px;
+    font-family: "Ubuntu";
+}
+
+/*===== CSS FORM ONE =====*/
+.container-form-one {
+    background: #E7F5FF!important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-one {
+    width: 50%;
+    background: #0ECE21;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 70px;
+}
+
+.grup-peserta-didik {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.img-as-two {
+    width: 400px;
+    width: 400px;
+}
+
+.heading-2-rekap-perserta-didik {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.grup-input-cs {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+.strong-cs {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.label-cs {
+    margin-bottom: 10px;
+}
+
+.input-cs {
+    width: 98%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E6E6E6;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.input-cs-select {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid #7D7D7D;
+    border-radius: 4px;
+    background-color: #E6E6E6;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.button-form-one {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: #0ECE21;
+    font-size: 16px;
+    font-weight: bold;
+    background: #e7e0e0;
+}
+
+.grup-all-data-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grup-all-data-2 {
+    width: 50%;
+    display: grid;
+    background: #0ECE21;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.text-all-data {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;   
+}
+
+.form-two {
+    width: 100%;
+}
+
+.button-submit-lats {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    color: #0ECE21;
+    font-size: 16px;
+    font-weight: bold;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.grup-button-submit-lats {
+    text-align: center;
+}
+
+.form-nilai-cs {
+    border: 3px solid #000;
+    border-radius: 8px;
+    width: 93%;
+}
+
+
+/* OPEN TABLE CSS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    border: 1px solid #000 !important;
+    padding: 8px;
+  }
+
+  th, td, input {
+    border: none;
+    background: transparent;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  /* CLOSE TABLE CSS */

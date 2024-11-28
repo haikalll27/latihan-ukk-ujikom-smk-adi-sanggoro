@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(90deg, #bc0193 0, #7d009d 25%, #3f00a7);
+  /* opacity: 0;
+  padding: 10px;
+  visibility: hidden; */
+  transition: opacity .3s, visibility .3s;
+}
+
+.form-input-cs {
+  border: 1px solid #fff;
+  /* background: ; */
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.heading-rekap-cs {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  align-items: center;
+}
+
+.header {
+  background: blue;
+}
+
+.nav-cs {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.grup-logo {
+  width: 150px;
+  padding: 10px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-list {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-cs-input {
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.grup-form {
+  padding: 10px;
+  margin: 10px auto;
+  width: 50%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.grup-input {
+  margin-bottom: 25px;
+}
+
+.grup-input-cs {
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.strong-cs {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.input-cs {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid #7D7D7D;
+    border-radius: 4px;
+    background-color: #E6E6E6;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.btn-cs-ok {
+  width: 100px;
+  height: 35px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  border: 1px solid transparent;
+  color: #fff;
+  background: linear-gradient(90deg, #bc0193 0%, #7d009d 25%, #3f00a7);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-cs-ok:hover {
+  width: 100px;
+  height: 35px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  border-radius: 10px ;
+  cursor: pointer;
+}
+
+.grup-input-last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grup-input-btn {
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.grup-input-border-cs{
+  border: 2px solid #555555;
+  border-radius: 10px;
+  background: transparent;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#grup-form {
+  width: 100%;
+}
+
+.tag-marquee {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+  align-items: center;
+}
+
+/* OPEN TABLE CSS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+/* CLOSE TABLE CSS */
